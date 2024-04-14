@@ -1,6 +1,7 @@
 # Importing the pygame in build library
-import pygame
+import pygame # type: ignore
 
+print("Hello World")
 # Creating the playlist
 playlist=[]
 pygame.mixer.init()
